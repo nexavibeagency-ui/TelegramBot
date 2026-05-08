@@ -68,7 +68,7 @@ async def approve(client, request: ChatJoinRequest):
             chat_id=request.from_user.id,
 
             # DIRECT IMAGE URL
-            photo="https://picsum.photos/500/300",
+            photo="https://ibb.co/xd3vsYK",
 
             caption=f"""
 🔥 Hello {user} 🔥
