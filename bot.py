@@ -6,10 +6,12 @@ from pyrogram.types import (
     InlineKeyboardButton
 )
 
+# API DETAILS
 API_ID = 36323488
 API_HASH = "0fd9b7274110884086070dbf183a8e18"
 BOT_TOKEN = "8631535910:AAFUTShjQ2p-EhO_wtvmLgitf37R9xqeTI4"
 
+# BOT CLIENT
 app = Client(
     "auto_accept_bot",
     api_id=API_ID,
@@ -17,6 +19,7 @@ app = Client(
     bot_token=BOT_TOKEN
 )
 
+# AUTO APPROVE JOIN REQUEST
 @app.on_chat_join_request()
 async def approve(client, request: ChatJoinRequest):
 
@@ -24,15 +27,15 @@ async def approve(client, request: ChatJoinRequest):
 
     print(f"Request from {user}")
 
-    # 1 minute wait
+    # WAIT 1 MINUTE
     await asyncio.sleep(60)
 
-    # approve request
+    # APPROVE REQUEST
     await request.approve()
 
     print(f"{user} approved")
 
-    # buttons
+    # BUTTONS
     buttons = InlineKeyboardMarkup([
 
         [
@@ -51,20 +54,21 @@ async def approve(client, request: ChatJoinRequest):
 
         [
             InlineKeyboardButton(
-                "✅ Join Channel",
+                "✅ JOIN CHANNEL",
                 url="https://t.me/+yvZq5LOWQtQwMDE1"
             )
         ]
 
     ])
 
-    # send welcome photo + message
+    # SEND PHOTO + MESSAGE
     try:
 
         await client.send_photo(
             chat_id=request.from_user.id,
 
-            photo="https://ibb.co/ZkvN99p",
+            # DIRECT IMAGE URL
+            photo="https://picsum.photos/500/300",
 
             caption=f"""
 🔥 Hello {user} 🔥
@@ -72,7 +76,7 @@ async def approve(client, request: ChatJoinRequest):
 ✅ Your join request has been approved!
 
 🏏 13L GAME VIP
-💰 VIP PREDICTION CHENAL
+💰 VIP PREDICTION CHANNEL
 🎯 JAI CLUB VIP HACK
 🔥 TASHAN WIN VIP HACK
 
@@ -85,5 +89,7 @@ async def approve(client, request: ChatJoinRequest):
     except Exception as e:
         print(e)
 
-print("Bot Running...")
-app.run()
+# START BOT
+if __name__ == "__main__":
+    print("Bot Running...")
+    app.run()
