@@ -41,14 +41,14 @@ async def approve(client, request: ChatJoinRequest):
         [
             InlineKeyboardButton(
                 "🔥 13L GAME VIP 🔥",
-                url="https://t.me/+yvZq5LOWQtQwMDE1"
+                url="https://t.me/+f_hZH2paA9s0NTQ9"
             )
         ],
 
         [
             InlineKeyboardButton(
-                "💰 VIP PREDICTION GAME 💰",
-                url="https://t.me/+yvZq5LOWQtQwMDE1"
+                "💰TASHAN WIN VIP PREDICTION💰",
+                url="https://t.me/+JS8v50YuJvVjM2E1"
             )
         ],
 
