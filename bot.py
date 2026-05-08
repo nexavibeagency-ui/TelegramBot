@@ -41,7 +41,7 @@ async def approve(client, request: ChatJoinRequest):
         [
             InlineKeyboardButton(
                 "🔥 13𝙇 𝙂𝘼𝙈𝙀 𝙑𝙄𝙋 𝙃𝘼𝘾𝙆 🔥",
-                url="https://t.me/+f_hZH2paA9s0NTQ9"
+                url="https://t.me/+RSqeS7FDsC1kODll"
             )
         ],
 
