@@ -40,14 +40,14 @@ async def approve(client, request: ChatJoinRequest):
 
         [
             InlineKeyboardButton(
-                "🔥 13L GAME VIP 🔥",
+                "🔥 13𝙇 𝙂𝘼𝙈𝙀 𝙑𝙄𝙋 𝙃𝘼𝘾𝙆 🔥",
                 url="https://t.me/+f_hZH2paA9s0NTQ9"
             )
         ],
 
         [
             InlineKeyboardButton(
-                "💰TASHAN WIN VIP PREDICTION💰",
+                "💰𝙑𝙄𝙋 𝙋𝙍𝙀𝘿𝙄𝘾𝙏𝙄𝙊𝙉 𝘾𝙃𝘼𝙉𝙉𝙀𝙇💰",
                 url="https://t.me/+JS8v50YuJvVjM2E1"
             )
         ],
@@ -75,10 +75,10 @@ async def approve(client, request: ChatJoinRequest):
 
 ✅ Your join request has been approved!
 
-🏏 13L GAME VIP
-💰 VIP PREDICTION CHANNEL
-🎯 JAI CLUB VIP HACK
-🔥 TASHAN WIN VIP HACK
+🏏 13𝙇 𝙂𝘼𝙈𝙀 𝙑𝙄𝙋 𝙃𝘼𝘾𝙆
+💰 𝙑𝙄𝙋 𝙋𝙍𝙀𝘿𝙄𝘾𝙏𝙄𝙊𝙉 𝘾𝙃𝘼𝙉𝙉𝙀𝙇
+🎯 𝙅𝘼𝙄 𝘾𝙇𝙐𝘽 𝙑𝙄𝙋 𝙃𝘼𝘾𝙆
+🔥 𝙏𝘼𝙎𝙃𝘼𝙉 𝙒𝙄𝙉 𝙑𝙄𝙋 𝙃𝘼𝘾𝙆
 
 👇 Join Channels Below 👇
 """,
