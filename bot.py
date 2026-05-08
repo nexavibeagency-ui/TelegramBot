@@ -27,8 +27,8 @@ async def approve(client, request: ChatJoinRequest):
 
     print(f"Request from {user}")
 
-    # 30 SECOND WAIT
-    await asyncio.sleep(30)
+    # 10 SECOND WAIT
+    await asyncio.sleep(10)
 
     # APPROVE REQUEST
     await request.approve()
