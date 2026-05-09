@@ -55,7 +55,7 @@ async def approve(client, request: ChatJoinRequest):
         [
             InlineKeyboardButton(
                 "✅ JOIN CHANNEL",
-                url="https://t.me/+yvZq5LOWQtQwMDE1"
+                url="https://t.me/+njIGM0V3dGNmM2I1"
             )
         ]
 
