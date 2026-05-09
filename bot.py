@@ -27,8 +27,8 @@ async def approve(client, request: ChatJoinRequest):
 
     print(f"Request from {user}")
 
-    # 5 SECOND WAIT
-    await asyncio.sleep(5)
+    # 2 SECOND WAIT
+    await asyncio.sleep(2)
 
     # APPROVE REQUEST
     await request.approve()
@@ -40,8 +40,8 @@ async def approve(client, request: ChatJoinRequest):
 
         [
             InlineKeyboardButton(
-                "🔥 13𝙇 𝙂𝘼𝙈𝙀 𝙑𝙄𝙋 𝙃𝘼𝘾𝙆 🔥",
-                url="https://t.me/+RSqeS7FDsC1kODll"
+                "🔥 𝙏𝘼𝙎𝙃𝘼𝙉 𝙒𝙄𝙉 𝙑𝙄𝙋 𝙃𝘼𝘾𝙆 🔥",
+                url="https://t.me/+Hh5uTkf0nZgwYmY9"
             )
         ],
 
